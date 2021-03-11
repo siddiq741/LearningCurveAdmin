@@ -4,7 +4,7 @@ function Home() {
   return (
     <div >
       <div class = 'card-list'>
-        <Link class = 'card' to = '/create-mcq'>
+        <Link class = 'card' to = '/create-mtf'>
                 <div class='card-img'>
                   <img src="assets/MatchImage.jpg" alt="Match"/>
                 </div>
