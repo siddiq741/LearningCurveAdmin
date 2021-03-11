@@ -12,7 +12,7 @@ const StageThree = (props) => {
       options,
       solution,
     }
-    const response = await fetch('http://localhost:8080/mtf/create', {
+    const response = await fetch(' http://ec2-3-21-159-81.us-east-2.compute.amazonaws.com:8080/mtf/create', {
       method: 'POST',
       headers: {
         Accept: 'application/json',

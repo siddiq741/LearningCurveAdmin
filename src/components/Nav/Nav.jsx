@@ -3,8 +3,8 @@ import './Nav.css';
 
 function Nav() {
     return (
-        <nav>
-            <Link  to = '/'>
+        <nav className='nav'>
+            <Link style={{marginLeft:'50px'}}  to = '/'>
                 <h3>Logo</h3>
             </Link>
             <ul className = 'nav-links'>
