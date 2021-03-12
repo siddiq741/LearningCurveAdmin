@@ -12,7 +12,7 @@ const StageThree = (props) => {
       options,
       solution,
     }
-    const response = await fetch('https://lc-backend-1.herokuapp.com/8080/mtf/create', {
+    const response = await fetch(' https://lc-backend-1.herokuapp.com/mtf/create', {
       method: 'POST',
       headers: {
         Accept: 'application/json',

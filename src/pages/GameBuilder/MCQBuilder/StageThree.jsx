@@ -11,7 +11,7 @@ const StageThree = (props) => {
       
     }
     console.log(finalData);
-    const response = await fetch(' https://lc-backend-1.herokuapp.com:8080/api/addMCQ', {
+    const response = await fetch(' https://lc-backend-1.herokuapp.com/api/addMCQ', {
       method: 'POST',
       headers: {
         Accept: 'application/json',
